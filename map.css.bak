@@ -1,0 +1,110 @@
+* {padding; 0; margin:0}
+
+.container {width: auto; margin: auto;  position:fixed;}
+
+header{ height:50px; background-color:silver; top:0px;}
+
+header .Atas .Kiri img {width:75px; height:35px; margin-top:5px; margin-left:30px; float:left; position:absolute;}
+
+nav ul li {float:left; list-style:none; margin-left: 20px;}
+
+nav ul li a{margin-right:15px; text-decoration:none; padding: 3px 10px;}
+
+nav ul li ul{display:none;}
+
+nav ul li:hover  > ul {display: block;}
+
+nav {position:relative; background:#FFFFF; height: 40px; line-height: 40px;}
+
+nav ul li ul {position:absolute;}
+
+nav ul li ul li{float:none; position:relative;}
+ 
+nav ul li:hover {background: #eccc68;}
+
+nav ul li a:hover {color:black;}
+
+nav ul  ul  ul {left:100%; top: 0; width: 200px;}
+
+nav  img{width:30px; height:30px; padding:8px;}
+
+header .Atas .Kanan nav {margin-left:90px;}
+
+.foto {width:auto;  height:auto; }
+.foto img{width: 100%; height:auto; }
+
+
+
+.foto .keterangan{position:absolute;}
+
+.foto .keterangan {display:block; position:absolute; font-size:35px; top:20%; left:20%; 
+	color:white;  text-align:center; padding:7px; font-family:cursive; 
+}
+
+.kontak iframe {margin-top:30px;}
+
+.tengah {float:left;}
+.tengah h1{Margin-top:70px;  margin-left:50px;}
+.tengah  input{line-height:200px;  width:700px; margin-top:20px; margin-left:50px; text-align:center;}
+.tengah  input.inputText {padding: 0 0 0 5px;}
+
+.tengah .tengah1 {margin-top:30px;}
+.tengah .tengah1 .tengah11 {float:left; margin-top:10px;}
+.tengah .tengah1 .tengah11 input{line-height:30px;  width:300px;  margin-left:50px; text-align:center;}
+.tengah .tengah1 .tengah11  input.inputText {padding: 0 0 0 5px;}
+.tengah .tengah1 .tengah12 {float:left; margin-top:10px;}
+.tengah .tengah1 .tengah12  input{line-height:30px;  width:300px;  margin-left:91px; text-align:center;}
+.tengah .tengah1 .tengah12  input.inputText {padding: 0 0 0 5px;}
+
+.tengah .tengah2 input{line-height:50px;  width:700px; margin-top:40px; margin-left:50px; text-align:center; float:left;}
+.tengah .tengah2 input.inputText {padding: 0 0 0 5px;}
+
+.tengah .tengah3 h1{color:white; padding:10px; text-align:center; background-color:#00d8d6; font-size:15px; height:30px; margin-top:230px; width:70px;}
+.tengah .tengah3 h1:hover{background-color:red;}
+
+.kanan {float:left; width:300px;margin-top:70px; margin-left:70px;}
+.kanan .kanan1 img{width:40px;float:left; margin-left:50px; margin-top:50px;}
+.kanan .kanan1 h1 {float:left; font-size:20px; margin-top:50px;}
+
+.kanan .kanan2 img{width:40px;float:left; margin-left:50px; margin-top:50px;}
+.kanan .kanan2 h1 {margin-left:10px; float:left; font-size:20px; margin-top:50px;}
+.kanan .kanan2 p {margin-left:10px;font-size:15px; float:left;}
+
+.kanan .kanan3 img{width:40px;float:left; margin-left:50px; margin-top:50px;}
+.kanan .kanan3 h1 {margin-left:10px; float:left; font-size:20px; margin-top:50px;}
+.kanan .kanan3 p {margin-left:10px; font-size:15px; float:left;}
+
+.jul {margin-top:700px; height:400px; background-color:#182C61;}
+
+.jul .jul1 {width:330px; height:auto; float:left;margin-top:100px;}
+.jul .jul1 .julio img{margin-top:10px;width:70px; height:70px; margin-left:30px; }
+.jul .jul1 .julio h1{font-size:20px; margin-left:30px;  margin-top:10px; color:white; }
+.jul .jul1 .julio h2{font-size:15px; margin-left:30px;  margin-top:10px; color:white;}
+.jul .jul1 .julio p{font-size:15px; margin-left:30px;  margin-top:10px; color:white;}
+
+.jul .jul1 .lim img{margin-top:50px;width:15px; height:15px;  margin-left:30px; padding:5px; float:left; border-radius}
+.jul .jul1 .lim img:hover{background-color:red;}
+
+.jul .jul2 {width:150px;height:aauto; float:left; margin-top:100px;}
+.jul .jul2 h1{font-size:20px; margin-left:30px;  margin-top:10px; color:white; }
+.jul .jul2 p{font-size:15px; margin-left:30px;  margin-top:10px; padding:10px;color:white; }
+.jul .jul2  p:hover{color:red;}
+
+.jul .jul3 {width:300px; float:left; margin-top:100px; margin-left:50px;}
+.jul .jul3 h1{;font-size:20px; margin-left:30px;  margin-top:10px;color:white; }
+
+.jul .jul3 .julio{float:left;}
+.jul .jul3 .julio p{ font-size:15px; margin-left:30px;  margin-top:10px; padding:10px; color:white; }
+.jul .jul3 .julio p:hover{color:red;}
+.jul .jul3 .lim{float:left;}
+.jul .jul3 .lim  p{font-size:15px; margin-left:30px;  margin-top:10px; padding:10px; color:white; }
+
+.jul .julx {float:left;margin-top:100px; width:350px; margin-left:50px;}
+.jul .julx h1{ margin-left:30px;font-size:20px; margin-top:10px; color:white; }
+
+.jul .julx .jul4 {width:80px; margin-top:100px; }
+.jul .julx .jul4 img{width: 100%; height:80px; margin-left:20px;  }
+.jul .julx .jul4 {float:left; margin:13px;}
+.jul .julx .jul4{position:relative;}
+
+footer  { width:auto; text-align:center; background-color:#182C61; color:white; }

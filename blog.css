@@ -1,0 +1,245 @@
+* {padding; 0; margin:0}
+
+.container {width: auto; margin: auto;  position:fixed;}
+
+header{ height:50px; background-color:silver; top:0px;}
+
+header .Atas .Kiri img {width:75px; height:35px; margin-top:5px; margin-left:30px; float:left; position:absolute;}
+
+nav ul li {float:left; list-style:none; margin-left: 20px;}
+
+nav ul li a{margin-right:15px; text-decoration:none; padding: 3px 10px;}
+
+nav ul li ul{display:none;}
+
+nav ul li:hover  > ul {display: block;}
+
+nav {position:relative; background:#FFFFF; height: 40px; line-height: 40px;}
+
+nav ul li ul {position:absolute;}
+
+nav ul li ul li{float:none; position:relative;}
+ 
+nav ul li:hover {background: #eccc68;}
+
+nav ul li a:hover {color:black;}
+
+nav ul  ul  ul {left:100%; top: 0; width: 200px;}
+
+nav  img{width:30px; height:30px; padding:8px;}
+
+header .Atas .Kanan nav {margin-left:90px;}
+
+.foto {width:auto;  height:auto; }
+.foto img{width: 100%; height:auto; }
+
+
+
+.foto .keterangan{position:absolute;}
+
+.foto .keterangan {display:block; position:absolute; font-size:35px; top:20%; left:20%; 
+	color:white;  text-align:center; padding:7px; font-family:cursive; 
+}
+
+.gambar {float:left; margin-left:50px; width:800px; margin-top:100px; position:relative;} 
+.gambar .gambarA .gambar0 img{width:700px;height:450px;}
+ 
+.gambar .gambarA .gambar0 h1{float:left; background-color:#ff7979; width:80px; text-align:center; color:white; border-radius:8px; position:absolute;  bottom:84%; left:5%;}
+.gambar .gambarA .gambar0 h1:hover{background-color:white; color:red;}
+.gambar .gambarA .keterangan h1{font-size:25px; margin-top:40px;}
+.gambar .gambarA .keterangan h1:hover{ color:red;}
+.gambar .gambarA .keterangan p{width:550px; color:#535c68;}
+
+
+.gambar .gambarA .gambar1 img {float:left; margin-top:5px; width:15px; height:15px;}
+.gambar .gambarA .gambar1 img:hover{background-color:red}
+.gambar .gambarA .gambar1 p{float:left; margin-top:5px; margin-left:5px;}
+.gambar .gambarA .gambar1 P:hover{color:red}
+
+.gambar .gambarA .gambar2 img { margin-left:10px; float:left; margin-top:5px; width:15px; height:15px;}
+.gambar .gambarA .gambar2 img:hover{background-color:red}
+.gambar .gambarA .gambar2 p{ margin-left:5px; float:left; margin-top:5px; margin-left:5px;}
+.gambar .gambarA .gambar2 P:hover{color:red}
+
+ 
+.gambar .gambarB .gambar0 img{width:700px;height:450px; margin-top:50px;}
+ 
+.gambar .gambarB .gambar0 h1{float:left; background-color:#ff7979; width:80px; text-align:center; color:white; border-radius:8px; position:absolute; top:34%; left:5%;}
+.gambar .gambarB .gambar0 h1:hover{background-color:white; color:red;}
+.gambar .gambarB .keterangan h1{font-size:25px; margin-top:40px;}
+.gambar .gambarB .keterangan h1:hover{ color:red;}
+.gambar .gambarB .keterangan p{width:550px; color:#535c68;}
+
+
+.gambar .gambarB .gambar1 img {float:left; margin-top:5px; width:15px; height:15px;}
+.gambar .gambarB .gambar1 img:hover{background-color:red}
+.gambar .gambarB .gambar1 p{float:left; margin-top:5px; margin-left:5px;}
+.gambar .gambarB .gambar1 P:hover{color:red}
+
+.gambar .gambarB .gambar2 img { margin-left:10px; float:left; margin-top:5px; width:15px; height:15px;}
+.gambar .gambarB .gambar2 img:hover{background-color:red}
+.gambar .gambarB .gambar2 p{ margin-left:5px; float:left; margin-top:5px; margin-left:5px;}
+.gambar .gambarB .gambar2 P:hover{color:red}
+ 
+.gambar .gambarC .gambar0 img{width:700px;height:450px; margin-top:50px;}
+ 
+.gambar .gambarC .gambar0 h1{float:left; background-color:#ff7979; width:80px; text-align:center; color:white; border-radius:8px; position:absolute;  top:55%; left:5%;}
+.gambar .gambarC .gambar0 h1:hover{background-color:white; color:red;}
+.gambar .gambarC .keterangan h1{font-size:25px; margin-top:40px;}
+.gambar .gambarC .keterangan h1:hover{ color:red;}
+.gambar .gambarC .keterangan p{width:550px; color:#535c68;}
+
+
+.gambar .gambarC .gambar1 img {float:left; margin-top:5px; width:15px; height:15px;}
+.gambar .gambarC .gambar1 img:hover{background-color:red}
+.gambar .gambarC .gambar1 p{float:left; margin-top:5px; margin-left:5px;}
+.gambar .gambarC .gambar1 P:hover{color:red}
+
+.gambar .gambarC .gambar2 img { margin-left:10px; float:left; margin-top:5px; width:15px; height:15px;}
+.gambar .gambarC .gambar2 img:hover{background-color:red}
+.gambar .gambarC .gambar2 p{ margin-left:5px; float:left; margin-top:5px; margin-left:5px;}
+.gambar .gambarC .gambar2 P:hover{color:red}
+ 
+.gambar .gambarD .gambar0 img{width:700px;height:450px; margin-top:50px;}
+ 
+.gambar .gambarD .gambar0 h1{float:left; background-color:#ff7979; width:80px; text-align:center; color:white; border-radius:8px; position:absolute;  top:75%; left:5%;}
+.gambar .gambarD .gambar0 h1:hover{background-color:white; color:red;}
+.gambar .gambarD .keterangan h1{font-size:25px; margin-top:30px;}
+.gambar .gambarD .keterangan h1:hover{ color:red;}
+.gambar .gambarD .keterangan p{width:550px; color:#535c68;}
+
+
+.gambar .gambarD .gambar1 img {float:left; margin-top:5px; width:15px; height:15px;}
+.gambar .gambarD .gambar1 img:hover{background-color:red}
+.gambar .gambarD .gambar1 p{float:left; margin-top:5px; margin-left:5px;}
+.gambar .gambarD .gambar1 P:hover{color:red}
+
+.gambar .gambarD .gambar2 img { margin-left:10px; float:left; margin-top:5px; width:15px; height:15px;}
+.gambar .gambarD .gambar2 img:hover{background-color:red}
+.gambar .gambarD .gambar2 p{ margin-left:5px; float:left; margin-top:5px; margin-left:5px;}
+.gambar .gambarD .gambar2 P:hover{color:red}
+
+.gambar .gambarE .gambar0 img{width:700px;height:450px; margin-top:50px;}
+ 
+.gambar .gambarE .gambar0 h1{float:left; background-color:#ff7979; width:80px; text-align:center; color:white; border-radius:8px; position:absolute;  top:95%; left:5%;}
+.gambar .gambarE .gambar0 h1:hover{background-color:white; color:red;}
+.gambar .gambarE .keterangan h1{font-size:25px; margin-top:20px;}
+.gambar .gambarE .keterangan h1:hover{ color:red;}
+.gambar .gambarE .keterangan p{width:550px; color:#535c68;}
+
+
+.gambar .gambarE .gambar1 img {float:left; margin-top:5px; width:15px; height:15px;}
+.gambar .gambarE .gambar1 img:hover{background-color:red}
+.gambar .gambarE .gambar1 p{float:left; margin-top:5px; margin-left:5px;}
+.gambar .gambarE .gambar1 P:hover{color:red}
+
+.gambar .gambarE .gambar2 img { margin-left:10px; float:left; margin-top:5px; width:15px; height:15px;}
+.gambar .gambarE .gambar2 img:hover{background-color:red}
+.gambar .gambarE .gambar2 p{ margin-left:5px; float:left; margin-top:5px; margin-left:5px;}
+.gambar .gambarE .gambar2 P:hover{color:red}
+
+.ket {float:left; margin-top:100px; width:400px; background-color:#dff9fb; height:200px;}
+.ket .ket1 input{line-height:35px;  width:300px;  margin-left:50px; float:left; text-align:center; margin-top:50px; border-radius:4px;}
+.ket .ket1 input.inputText {padding: 0 0 0 5px}
+
+.ket .ket1 button{background-color:#22a6b3; color:white; width:305px; line-height:35px; margin-left:50px; margin-top:30px; border-radius:4px;}
+.ket .ket1 button:hover {background-color:red;}
+
+.ket .ket2 {margin-top:100px; background-color:#dff9fb; height:570px; width:400px;}
+.ket .ket2 h1{width:300px; font-size:25px; padding:20px; margin-left:30px; border-bottom:2px solid red ; color:#535c68;}
+.ket .ket2 p{width:320px; font-size:20px;margin-top:30px; margin-left:30px; padding:10px; border-bottom:2px solid red ; color:#535c68;}
+.ket .ket2 p:hover{color:red;}
+.ket .ket3. {float:left; width:400px;margin-top:70px; margin-left:70px;}
+.ket .ket3 h1{font-size:25px; margin-left:30px; color:#535c68; margin-top:50px;}
+
+.ket .ket3 .kanan1 img{width:80px;height:80px; float:left; margin-left:50px; margin-top:50px;}
+.ket .ket3 .kanan1 h1 {float:left; font-size:20px; margin-top:50px;}
+.ket .ket3 .kanan1 p {margin-left:30px;font-size:15px;float:left;}
+
+.ket .ket3 .kanan2{float:left;}
+.ket .ket3 .kanan2 img{width:80px;height:80px; float:left; margin-left:50px; margin-top:50px;}
+.ket .ket3 .kanan2 h1 {float:left; font-size:20px; margin-top:50px;}
+.ket .ket3 .kanan2 p {margin-left:30px;font-size:15px;float:left;}
+
+.ket .ket3 .kanan3{float:left;}
+.ket .ket3 .kanan3 img{width:80px;height:80px; float:left; margin-left:50px; margin-top:50px;}
+.ket .ket3 .kanan3 h1 {float:left; font-size:20px; margin-top:50px;}
+.ket .ket3 .kanan3 p {margin-left:30px;font-size:15px;float:left;}
+
+.ket .ket3 .kanan4{float:left;}
+.ket .ket3 .kanan4 img{width:80px;height:80px; float:left; margin-left:50px; margin-top:50px;}
+.ket .ket3 .kanan4 h1 {float:left; font-size:20px; margin-top:50px;}
+.ket .ket3 .kanan4 p {margin-left:30px;font-size:15px;float:left;}
+
+.ket .ket4 {float:left; width:230px;margin-top:70px; margin-left:35px;}
+.ket .ket4 h1{font-size:25px;color:#535c68; margin-top:50px;}
+
+.ket .ket4 .kiri1{float:left;margin-top:50px;}
+.ket .ket4 .kiri1 p {margin-left:30px;font-size:15px;float:left;background-color:#ecf0f1;}
+.ket .ket4 .kiri1 p:hover{background-color:red;color:white; }
+
+.ket .ket4 .kiri2{float:left; margin-top:5px;}
+.ket .ket4 .kiri2 p {margin-left:30px;font-size:15px;float:left;background-color:#ecf0f1;}
+.ket .ket4 .kiri2 p:hover{background-color:red; color:white;}
+
+.ket .ket4 .kiri3{float:left; margin-top:5px;}
+.ket .ket4 .kiri3 p {margin-left:30px;font-size:15px;float:left;background-color:#ecf0f1;}
+.ket .ket4 .kiri3 p:hover{background-color:red; color:white;}
+
+.ket .ket4 .kiri4{float:left;margin-top:5px;}
+.ket .ket4 .kiri4 p {margin-left:30px;font-size:15px;float:left;background-color:#ecf0f1;}
+.ket .ket4 .kiri4 p:hover{background-color:red; color:white;}
+
+.ket .ket5 {float:left; width:300px; margin-top:70px; margin-left:35px;}
+.ket .ket5 h1{font-size:25px;color:#535c68; margin-top:50px;}
+
+.ket .ket5 .ketA{width:70px; margin-top:100px; }
+.ket .ket5 .ketA img{width: 100%; height:80px;  }
+.ket .ket5 .ketA {float:left; margin:13px;}
+.ket .ket5 .ketA {position:relative;}
+
+.ket .ket6 {float:left; width:300px; margin-top:70px; margin-left:35px;}
+.ket .ket6 h1{font-size:25px;color:#535c68; margin-top:50px;}
+.ket .ket6 input{line-height:35px;  width:300px;  float:left; text-align:center; margin-top:50px; border-radius:4px;}
+.ket .ket6 input.inputText {padding: 0 0 0 5px}
+
+.ket .ket6 button{background-color:#22a6b3; color:white; width:305px; line-height:35px;margin-top:30px; border-radius:4px;}
+.ket .ket6 button:hover{background-color:red; color:white;}
+
+
+
+.jul {margin-top:3200px; height:400px; background-color:#182C61;}
+
+.jul .jul1 {width:330px; height:auto; float:left;margin-top:100px;}
+.jul .jul1 .julio img{margin-top:10px;width:70px; height:70px; margin-left:30px; }
+.jul .jul1 .julio h1{font-size:20px; margin-left:30px;  margin-top:10px; color:white; }
+.jul .jul1 .julio h2{font-size:15px; margin-left:30px;  margin-top:10px; color:white;}
+.jul .jul1 .julio p{font-size:15px; margin-left:30px;  margin-top:10px; color:white;}
+
+.jul .jul1 .lim img{margin-top:50px;width:15px; height:15px;  margin-left:30px; padding:5px; float:left; border-radius}
+.jul .jul1 .lim img:hover{background-color:red;}
+
+.jul .jul2 {width:150px;height:aauto; float:left; margin-top:100px;}
+.jul .jul2 h1{font-size:20px; margin-left:30px;  margin-top:10px; color:white; }
+.jul .jul2 p{font-size:15px; margin-left:30px;  margin-top:10px; padding:10px;color:white; }
+.jul .jul2  p:hover{color:red;}
+
+.jul .jul3 {width:300px; float:left; margin-top:100px; margin-left:50px;}
+.jul .jul3 h1{;font-size:20px; margin-left:30px;  margin-top:10px;color:white; }
+
+.jul .jul3 .julio{float:left;}
+.jul .jul3 .julio p{ font-size:15px; margin-left:30px;  margin-top:10px; padding:10px; color:white; }
+.jul .jul3 .julio p:hover{color:red;}
+.jul .jul3 .lim{float:left;}
+.jul .jul3 .lim  p{font-size:15px; margin-left:30px;  margin-top:10px; padding:10px; color:white; }
+.jul .jul3 .lim p:hover{color:red;}
+
+.jul .julx {float:left;margin-top:100px; width:350px; margin-left:50px;}
+.jul .julx h1{ margin-left:30px;font-size:20px; margin-top:10px; color:white; }
+
+.jul .julx .jul4 {width:80px; margin-top:100px; }
+.jul .julx .jul4 img{width: 100%; height:80px; margin-left:20px;  }
+.jul .julx .jul4 {float:left; margin:13px;}
+.jul .julx .jul4{position:relative;}
+
+footer  { width:auto; text-align:center; background-color:#182C61; color:white; }

@@ -1,0 +1,188 @@
+* {padding; 0; margin:0}
+
+.container {width: auto; margin: auto;  position:fixed;}
+
+header{ height:50px; background-color:silver; top:0px;}
+
+header .Atas .Kiri img {width:75px; height:35px; margin-top:5px; margin-left:30px; float:left; position:absolute;}
+
+nav ul li {float:left; list-style:none; margin-left: 20px;}
+
+nav ul li a{margin-right:15px; text-decoration:none; padding: 3px 10px;}
+
+nav ul li ul{display:none;}
+
+nav ul li:hover  > ul {display: block;}
+
+nav {position:relative; background:#FFFFF; height: 40px; line-height: 40px;}
+
+nav ul li ul {position:absolute;}
+
+nav ul li ul li{float:none; position:relative;}
+ 
+nav ul li:hover {background: #eccc68;}
+
+nav ul li a:hover {color:black;}
+
+nav ul  ul  ul {left:100%; top: 0; width: 200px;}
+
+nav  img{width:30px; height:30px; padding:8px;}
+
+header .Atas .Kanan nav {margin-left:90px; }
+
+.foto {width:auto;  height:auto; }
+.foto img{width: 100%; height:auto; }
+
+
+
+.foto .keterangan{position:absolute;}
+
+.foto .keterangan {display:block; position:absolute; font-size:35px; top:20%; left:20%; 
+	color:white;  text-align:center; padding:7px; font-family:cursive; 
+}
+
+
+.foto .box {background-color:#00d8d6; width:200px; height:70px; margin-left:260px;border-radius:8px; }
+.foto .box:hover {background-color:red;}
+.foto .box h2 {font-size:20px; margin-top:25px; padding-top:25px; font-family:sans-serif; text-align:center; }
+
+.baru {  background:#182C61; height:100px; position:relative;}
+.baru h2{float:left; font-size:25px; margin-left:20px; color:white; padding:25px;}
+
+.baru .Baru1 input{line-height:26px; margin:2px; width:175px; margin-top:25px; margin-left:20px; float:left; text-align:center;}
+.baru .Baru1 input.inputText {padding: 0 0 0 5px;}
+
+.baru .Baru2 input{line-height:26px; margin:2px; width:175px; margin-top:25px; margin-left:50px; float:left; text-align:center;}
+.baru .Baru2 input.inputText {padding: 0 0 0 5px;}
+
+
+.baru .Baru3 select { width: 175px; line-height:26px; background-color: #ddd; margin-top:25px; margin-left:50px; border-radius: 4px; float:left; height:30px; text-align:center;}
+
+.baru .Baru4 button{border-radius:8px; width:100px; line-height:26px; background-color: red; color:white; margin-left:50px; float:left; margin-top:25px; text-align:center;}
+.baru .Baru4 button:hover{background-color:#22a6b3}
+
+.Pertengahan h1{margin-top:100px; margin-left:530px;}
+.Pertengahan p {margin-left:50px; text-align:center;}
+
+.Galeri {width:380px;}
+.Galeri img{width: 100%; height:200px; padding:20px;}
+.Galeri {float:left; margin:13px;}
+
+.Galeri {position:relative;}
+.Galeri .keterangan {position: absolute; width:10%; height:auto; bottom: 25%; left:5%;  font-size: 25px; color:white;
+	text-align:center; padding:5px; margin-top:15px; margin-left:30px;
+}
+.Galeri .keterangan:hover {color:red;}
+
+.Galeri .nomor {position: absolute; width:20%; height:auto;
+	background-color:#00cec9; border-radius:8px; bottom: 25%; left:5%;  font-size: 20px; color:white;
+	text-align:center; padding:6px; margin-left:140px;
+}
+
+.Galeri .nomor:hover {background-color:#ff7675;}
+
+.Subs {margin-top:100px; height:130px; background-color:#636e72;position:relative; margin-top:550px;}
+.Subs .Subs1 h1{font-size:20px;  margin-left:90px; padding:10px; margin-top:15px; color:white;}
+.Subs .Subs1 h2{font-size:15px; float:left; width:305px; margin-left:100px; margin-top:15px; color:white;}
+
+.Subs .Subs2 input{line-height:45px;  width:400px; margin-bottom:50px; margin-left:100px; float:left; text-align:center;}
+.Subs .Subs2 input.inputText {padding: 0 0 0 5px;}
+
+.Subs .Subs3 button{border-radius:8px;width:200px; line-height:45px; background-color: #ff7675; color:white; margin-left:50px; float:left; margin-bottom:50px; text-align:center;}
+.Subs .Subs3 button:hover {background-color:#22a6b3}
+
+.Place h1{margin-top:100px; margin-left:560px;}
+.Place p {margin-left:50px; text-align:center;}
+
+.Gal {width:380px; margin-top:100px; }
+.Gal img{width: 100%; height:200px; margin-left:20px;  }
+.Gal {float:left; margin:13px;}
+.Gal {position:relative;}
+
+.Gal .nomor {position: absolute; width:20%; height:auto;
+	background-color:#00cec9; border-radius:8px; bottom: 25%; left:5%;  font-size: 20px; color:white;
+	text-align:center; padding:6px; margin-left:10px; margin-bottom:160px;
+}
+.Gal .nomor:hover {background-color:#22a6b3;}
+
+.Gal .keterangan {background-color:#ced6e0; margin-left:20px; width:380px; }
+.Gal .keterangan h1{margin-left:10px; font-size:20px;}
+.Gal .keterangan h1:hover {color:#ff4757;}
+.Gal .keterangan p{margin-left:10px; font-size:15px;}
+.Gal .keterangan  img{width:50px; height:50px; margin-left:10px;}
+
+.but {border-radius:8px;background-color:#00d8d6; width:200px; height:70px; margin-left:550px; margin-top:700px; position:relative;}
+.but:hover {background-color:red;}
+.but h2{font-size:20px; margin-top:25px; padding-top:25px; font-family:sans-serif; text-align:center; color:white;}
+
+.vid iframe { margin-top:30px;}
+
+.Akhir{margin-top:100px;}
+
+.Akhir .Akhir1 {width:330px; float:left;}
+.Akhir .Akhir1 img{width:70px; height:70px; float:left; margin-left:170px;}
+.Akhir .Akhir1 h1{font-size:20px; margin-left:120px; float:left; margin-top:10px; }
+.Akhir .Akhir1 p{font-size:15px; margin-left:90px; float:left; text-align:center; margin-top:10px; }
+
+.Akhir .Akhir2 {width:330px; float:left; margin-left:100px;}
+.Akhir .Akhir2 img{width:70px; height:70px; float:left; margin-left:170px;}
+.Akhir .Akhir2 h1{font-size:20px; margin-left:140px; float:left; margin-top:10px; }
+.Akhir .Akhir2 p{font-size:15px; margin-left:90px; float:left; text-align:center; margin-top:10px; }
+
+.Akhir .Akhir3 {width:330px; float:left; margin-left:100px;}
+.Akhir .Akhir3 img{width:70px; height:70px; float:left; margin-left:170px;}
+.Akhir .Akhir3 h1{font-size:20px; margin-left:150px; float:left; margin-top:10px; }
+.Akhir .Akhir3 p{font-size:15px; margin-left:90px; float:left; text-align:center; margin-top:10px; }
+
+.pic img{margin-top:100px; margin-left:575px;}
+.pic h1{font-size:20px; width:700px; margin-left:300px; text-align:center; margin-top:30px;}
+.pic p{font-size:15px; margin-left:580px; color:silver; margin-top:10px;}
+
+.tolast h1{margin-top:100px; margin-left:540px;}
+
+.last {width:380px; margin-top:100px; }
+.last img{width: 100%; height:200px; margin-left:20px;  }
+.last {float:left; margin:13px;}
+.last {position:relative;}
+
+.last .keterangan { margin-left:20px; width:380px; }
+.last .keterangan  img{width:50px; height:50px; margin-left:10px; }
+.last .keterangan p{margin-left:10px; font-size:15px; color:silver; margin-top:10px;}
+.last .keterangan h1{margin-left:10px; font-size:20px; width:270px; margin-top:10px;}
+.last .keterangan h1:hover {color:#ff4757;}
+
+.jul {margin-top:400px; height:400px; background-color:#182C61;}
+
+.jul .jul1 {width:330px; height:auto; float:left;margin-top:100px;}
+.jul .jul1 .julio img{margin-top:10px;width:70px; height:70px; margin-left:30px; }
+.jul .jul1 .julio h1{font-size:20px; margin-left:30px;  margin-top:10px; color:white; }
+.jul .jul1 .julio h2{font-size:15px; margin-left:30px;  margin-top:10px; color:white;}
+.jul .jul1 .julio p{font-size:15px; margin-left:30px;  margin-top:10px; color:white;}
+
+.jul .jul1 .lim img{margin-top:50px;width:15px; height:15px;  margin-left:30px; padding:5px; float:left; border-radius}
+.jul .jul1 .lim img:hover{background-color:red;}
+
+.jul .jul2 {width:150px;height:aauto; float:left; margin-top:100px;}
+.jul .jul2 h1{font-size:20px; margin-left:30px;  margin-top:10px; color:white; }
+.jul .jul2 p{font-size:15px; margin-left:30px;  margin-top:10px; padding:10px;color:white; }
+.jul .jul2  p:hover{color:red;}
+
+.jul .jul3 {width:300px; float:left; margin-top:100px; margin-left:50px;}
+.jul .jul3 h1{;font-size:20px; margin-left:30px;  margin-top:10px;color:white; }
+
+.jul .jul3 .julio{float:left;}
+.jul .jul3 .julio p{ font-size:15px; margin-left:30px;  margin-top:10px; padding:10px; color:white; }
+.jul .jul3 .julio p:hover{color:red;}
+.jul .jul3 .lim{float:left;}
+.jul .jul3 .lim  p{font-size:15px; margin-left:30px;  margin-top:10px; padding:10px; color:white; }
+.jul .jul3 .lim p:hover{color:red;}
+
+.jul .julx {float:left;margin-top:100px; width:350px; margin-left:50px;}
+.jul .julx h1{ margin-left:30px;font-size:20px; margin-top:10px; color:white; }
+
+.jul .julx .jul4 {width:80px; margin-top:100px; }
+.jul .julx .jul4 img{width: 100%; height:80px; margin-left:20px;  }
+.jul .julx .jul4 {float:left; margin:13px;}
+.jul .julx .jul4{position:relative;}
+
+footer  { width:auto; text-align:center; background-color:#182C61; color:white; }
